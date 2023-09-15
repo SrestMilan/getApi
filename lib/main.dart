@@ -4,18 +4,17 @@ import 'package:flutter/material.dart';
 import 'package:get_api/Model/photos.dart';
 import 'package:get_api/Model/usermodel.dart';
 import 'package:get_api/Model/usersmodel.dart';
+import 'package:get_api/Screen.dart';
 import 'package:http/http.dart' as http;
 
 void main(){
-  runApp(App(
-    
-    ));
+  runApp(MaterialApp(home: Screen(),));
 }
 
 
 
 
-
+/*
 class App extends StatelessWidget {
  
  
@@ -93,3 +92,4 @@ class App extends StatelessWidget {
     );
   }
 }
+*/

@@ -29,8 +29,8 @@ class _ScreenState extends State<Screen> {
 
       if(response.statusCode == 200){
         
-        var data = jsonDecode(response.body.toString());
-        print(data['token']);
+        // var data = jsonDecode(response.body.toString());
+        // print(data['token']);
         print('Login successfully');
 
       }else {
